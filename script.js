@@ -200,7 +200,7 @@ function addToHistory() {
 
 // Google Sheets-ga ma'lumot yozish
 function saveToGoogleSheets(entry) {
-  const url = "https://script.google.com/macros/s/AKfycbyZ7nmJpMc3xQZvfsx6Va-lgXxF6smJ1sXsxepPgUVC8kl4IYUYm8TczcPihSWguCk/exec"; // Apps Script Web App URL
+  const url = "https://script.google.com/macros/s/AKfycbxJvCcYBfjN-7Y5-NQRBxqgSgExM17YqDvqgqL3-yJ2IhDL5dey6ega2Ym4bedrwhWc/exec"; // Apps Script Web App URL
   const data = {
     date: entry.date,
     cash: entry.cash,
